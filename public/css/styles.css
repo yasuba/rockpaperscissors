@@ -4,8 +4,10 @@ body {
 }
 
 img {
-	opacity: 0.5;
-    filter: alpha(opacity=50);
+	opacity: 0.4;
+    filter: alpha(opacity=40);
     position:absolute;
-    top:7%;
+    top: 7%;
+    left: 25%;
+
 }
