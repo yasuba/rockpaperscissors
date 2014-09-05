@@ -6,8 +6,7 @@ class Game
 		@players = [@player1, @player2]
 	end
 
-	BEATS = {rock: :scissors, scissors: :paper, paper: :rock}
-	#  rock: :ninja, ninja: :samurai, samurai: :scissors, scissors: :ninja, ninja: :paper, paper: :samurai, samurai: :rock
+	BEATS = {rock: :scissors, scissors: :paper, paper: :rock, rock: :ninja, ninja: :samurai, samurai: :scissors, scissors: :ninja, ninja: :paper, paper: :samurai, samurai: :rock}
 
 	attr_reader :players, :player1, :player2
 
