@@ -6,14 +6,13 @@ class Game
 		@players = [@player1, @player2]
 	end
 
-	BEATS = {rock: :scissors, scissors: :paper, paper: :rock}
-	# rock: :ninja, ninja: :samurai, samurai: :scissors, scissors: :ninja, ninja: :paper, paper: :samurai, samurai: :rock
+	BEATS = {rock: [:scissors, :ninja], scissors: [:paper, :ninja], paper: [:rock, :samurai], ninja: [:samurai, :paper], samurai: [:scissors, :rock]}
 
 	attr_reader :players, :player1, :player2
 
 	def winner
 		return "Draw" if player1.pick == player2.pick
-		return player1  if BEATS[normalize(player1.pick)] == normalize(player2.pick)
+		return player1  if BEATS[normalize(player1.pick)].include?(normalize(player2.pick))
 		player2
 	end
 

@@ -1,0 +1,11 @@
+body {
+	font-family: Tahoma, Helvetica;
+	background-color:#2facfa;
+}
+
+img {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+    position:absolute;
+    top:7%;
+}
