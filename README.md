@@ -1,0 +1,12 @@
+#rockpaperscissors
+=================
+
+The fifth week Friday challenge at Makers Academy was to deploy a sinatra-based web application to Heroku in two separate  deployment targets: staging and production.
+
+The app needed to have the NewRelic add-on, which monitors the app and delivers analytics about its performance. NewRelic allows you to see reports on your app's speed and response time, server performance, if there are any errors, and also what users are doing on your site and which browsers they're using.
+
+Finally, the app needed some css to make it pretty. 
+
+##The app!
+
+You can check out the app here: http://vast-thicket-2924.herokuapp.com/
