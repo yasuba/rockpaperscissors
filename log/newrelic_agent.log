@@ -78,3 +78,148 @@
 [09/05/14 16:08:16 +0100 gigan (4029)] INFO : Finished instrumentation
 [09/05/14 16:08:16 +0100 gigan (4029)] INFO : Doing deferred dependency-detection before Rack startup
 [09/05/14 16:08:17 +0100 gigan (4029)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : Starting the New Relic agent in "development" environment.
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : Environment: development
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : No known dispatcher detected.
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : Application: My Application (Development)
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : Installing Net instrumentation
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : Installing Sinatra instrumentation
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : Installing deferred Rack instrumentation
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : Installing Rack::Builder middleware instrumentation
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : Finished instrumentation
+[09/05/14 18:59:30 +0100 gigan (4298)] INFO : Doing deferred dependency-detection before Rack startup
+[09/05/14 18:59:31 +0100 gigan (4298)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : Starting the New Relic agent in "development" environment.
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : Environment: development
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : No known dispatcher detected.
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : Application: My Application (Development)
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : Installing Net instrumentation
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : Installing Sinatra instrumentation
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : Installing deferred Rack instrumentation
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : Installing Rack::Builder middleware instrumentation
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : Finished instrumentation
+[09/05/14 19:08:17 +0100 gigan (4328)] INFO : Doing deferred dependency-detection before Rack startup
+[09/05/14 19:08:18 +0100 gigan (4328)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : Starting the New Relic agent in "development" environment.
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : Environment: development
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : No known dispatcher detected.
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : Application: My Application (Development)
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : Installing Net instrumentation
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : Installing Sinatra instrumentation
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : Installing deferred Rack instrumentation
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : Installing Rack::Builder middleware instrumentation
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : Finished instrumentation
+[09/05/14 19:17:15 +0100 gigan (4369)] INFO : Doing deferred dependency-detection before Rack startup
+[09/05/14 19:17:16 +0100 gigan (4369)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : Starting the New Relic agent in "development" environment.
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : Environment: development
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : No known dispatcher detected.
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : Application: My Application (Development)
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : Installing Net instrumentation
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : Installing Sinatra instrumentation
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : Installing deferred Rack instrumentation
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : Installing Rack::Builder middleware instrumentation
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : Finished instrumentation
+[09/05/14 19:40:11 +0100 gigan (4444)] INFO : Doing deferred dependency-detection before Rack startup
+[09/05/14 19:40:12 +0100 gigan (4444)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/06/14 09:03:06 +0100 gigan (4444)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[09/06/14 09:03:06 +0100 gigan (4444)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : Starting the New Relic agent in "development" environment.
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : Environment: development
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : No known dispatcher detected.
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : Application: My Application (Development)
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : Installing Net instrumentation
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : Installing Sinatra instrumentation
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : Installing deferred Rack instrumentation
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : Installing Rack::Builder middleware instrumentation
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : Finished instrumentation
+[09/06/14 09:07:39 +0100 gigan (4552)] INFO : Doing deferred dependency-detection before Rack startup
+[09/06/14 09:07:40 +0100 gigan (4552)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/06/14 09:13:43 +0100 gigan (4558)] INFO : Starting the New Relic agent in "development" environment.
+[09/06/14 09:13:43 +0100 gigan (4558)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/06/14 09:13:43 +0100 gigan (4558)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/06/14 09:13:43 +0100 gigan (4558)] INFO : Environment: development
+[09/06/14 09:13:43 +0100 gigan (4558)] INFO : No known dispatcher detected.
+[09/06/14 09:13:43 +0100 gigan (4558)] INFO : Application: My Application (Development)
+[09/06/14 09:13:44 +0100 gigan (4558)] INFO : Installing Net instrumentation
+[09/06/14 09:13:44 +0100 gigan (4558)] INFO : Installing Sinatra instrumentation
+[09/06/14 09:13:44 +0100 gigan (4558)] INFO : Installing deferred Rack instrumentation
+[09/06/14 09:13:44 +0100 gigan (4558)] INFO : Installing Rack::Builder middleware instrumentation
+[09/06/14 09:13:44 +0100 gigan (4558)] INFO : Finished instrumentation
+[09/06/14 09:13:44 +0100 gigan (4558)] INFO : Doing deferred dependency-detection before Rack startup
+[09/06/14 09:14:03 +0100 gigan (4558)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : Starting the New Relic agent in "development" environment.
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : Environment: development
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : No known dispatcher detected.
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : Application: My Application (Development)
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : Installing Net instrumentation
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : Installing Sinatra instrumentation
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : Installing deferred Rack instrumentation
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : Installing Rack::Builder middleware instrumentation
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : Finished instrumentation
+[09/06/14 09:15:17 +0100 gigan (4566)] INFO : Doing deferred dependency-detection before Rack startup
+[09/06/14 09:15:18 +0100 gigan (4566)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : Starting the New Relic agent in "development" environment.
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : Environment: development
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : No known dispatcher detected.
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : Application: My Application (Development)
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : Installing Net instrumentation
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : Installing Sinatra instrumentation
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : Installing deferred Rack instrumentation
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : Installing Rack::Builder middleware instrumentation
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : Finished instrumentation
+[09/06/14 09:27:25 +0100 gigan (4626)] INFO : Doing deferred dependency-detection before Rack startup
+[09/06/14 09:27:26 +0100 gigan (4626)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : Starting the New Relic agent in "development" environment.
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : Environment: development
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : No known dispatcher detected.
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : Application: My Application (Development)
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : Installing Net instrumentation
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : Installing Sinatra instrumentation
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : Installing deferred Rack instrumentation
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : Installing Rack::Builder middleware instrumentation
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : Finished instrumentation
+[09/06/14 09:30:36 +0100 gigan (4643)] INFO : Doing deferred dependency-detection before Rack startup
+[09/06/14 09:30:37 +0100 gigan (4643)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : Starting the New Relic agent in "development" environment.
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : Environment: development
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : No known dispatcher detected.
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : Application: My Application (Development)
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : Installing Net instrumentation
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : Installing Sinatra instrumentation
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : Installing deferred Rack instrumentation
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : Installing Rack::Builder middleware instrumentation
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : Finished instrumentation
+[09/06/14 10:06:20 +0100 gigan (4766)] INFO : Doing deferred dependency-detection before Rack startup
+[09/06/14 10:06:22 +0100 gigan (4766)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : Starting the New Relic agent in "development" environment.
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : Reading configuration from newrelic.yml (/Users/maya/projects/challenges/rockpaperscissors)
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : Environment: development
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : No known dispatcher detected.
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : Application: My Application (Development)
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : Installing Net instrumentation
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : Installing Sinatra instrumentation
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : Installing deferred Rack instrumentation
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : Installing Rack::Builder middleware instrumentation
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : Finished instrumentation
+[09/06/14 10:22:26 +0100 gigan (4802)] INFO : Doing deferred dependency-detection before Rack startup
+[09/06/14 10:22:28 +0100 gigan (4802)] INFO : Reporting to: https://rpm.newrelic.com/accounts/762149/applications/4894192

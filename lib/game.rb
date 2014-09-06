@@ -19,4 +19,18 @@ class Game
 	def normalize(pick)
 		pick.downcase.to_sym
 	end
+
+	def victory
+		if winner.pick == "Rock" 
+			"crushes"
+		elsif winner.pick == "Scissors"
+			"cuts"
+		elsif winner.pick == "Paper"
+			"covers"
+		elsif winner.pick == "Ninja"
+			"poisons"
+		elsif winner.pick == "Samurai"
+			"throws"
+		end
+	end
 end

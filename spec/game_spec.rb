@@ -15,12 +15,14 @@ describe Game do
 			allow(player1).to receive(:pick).and_return("Rock")
 			allow(player2).to receive(:pick).and_return("Scissors")
 			expect(game.winner).to eq player1
+			expect(game.victory).to eq "crushes"
 		end
 
 		it 'player one picks paper, player two picks scissors' do
 			allow(player1).to receive(:pick).and_return("Paper")
 			allow(player2).to receive(:pick).and_return("Scissors")
 			expect(game.winner).to eq player2
+			expect(game.victory).to eq "cuts"
 		end
 
 		it "player one picks paper, player two picks rock" do

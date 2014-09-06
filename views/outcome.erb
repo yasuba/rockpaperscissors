@@ -2,7 +2,7 @@ RESULTS:
 <% if @game.winner == "Draw" %>
  <p> It was a draw </p>
  <% elsif @game.winner.name == "computer" %>
- <p> You lost, the computer won with <%= @game.winner.pick %></p>
+ <p> You lost, <%= @game.winner.pick %> <%=@game.victory %> <%=@game.player1.pick %></p>
 <% else %>
 <p> You won, with <%= @game.winner.pick %> </p>
 <%end%>
