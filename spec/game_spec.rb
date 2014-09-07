@@ -15,14 +15,12 @@ describe Game do
 			allow(player1).to receive(:pick).and_return("Rock")
 			allow(player2).to receive(:pick).and_return("Scissors")
 			expect(game.winner).to eq player1
-			expect(game.victory).to eq "crushes"
 		end
 
 		it 'player one picks paper, player two picks scissors' do
 			allow(player1).to receive(:pick).and_return("Paper")
 			allow(player2).to receive(:pick).and_return("Scissors")
 			expect(game.winner).to eq player2
-			expect(game.victory).to eq "cuts"
 		end
 
 		it "player one picks paper, player two picks rock" do
@@ -34,7 +32,7 @@ describe Game do
 		it "can be a draw" do
 			allow(player1).to receive(:pick).and_return("Paper")
 			allow(player2).to receive(:pick).and_return("Paper")
-			expect(game.winner).to eq "Draw"
+			expect(game.winner.name).to eq "Draw"
 		end
 
 		it 'player one picks ninja, player two picks scissor' do
@@ -77,6 +75,18 @@ describe Game do
 			allow(player1).to receive(:pick).and_return("Samurai")
 			allow(player2).to receive(:pick).and_return("Paper")
 			expect(game.winner).to eq player2
+		end
+
+		it "can constuct a fantastic winning message" do 
+			allow(player1).to receive(:pick).and_return("Samurai")
+			allow(player2).to receive(:pick).and_return("Paper")
+			expect(game.message).to eq "Paper cuts little finger of Samurai"
+		end
+
+		it "writes a good message for a draw" do
+			allow(player1).to receive(:pick).and_return("Paper")
+			allow(player2).to receive(:pick).and_return("Paper")
+			expect(game.message).to eq "It was a draw"
 		end
 
 	end

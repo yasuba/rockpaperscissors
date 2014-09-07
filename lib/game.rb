@@ -6,31 +6,32 @@ class Game
 		@players = [@player1, @player2]
 	end
 
-	BEATS = {rock: [:scissors, :ninja], scissors: [:paper, :ninja], paper: [:rock, :samurai], ninja: [:samurai, :paper], samurai: [:scissors, :rock]}
+	BEATS = {rock: {scissors: "crushes", ninja: "trips up"}, scissors: {paper: "cut", ninja: "blind"}, paper: {rock: "covers", samurai: "cuts little finger of"}, ninja: {samurai: "poisons", paper: "makes origami out of"}, samurai: {scissors: "smashes", rock: "throws"}}
 
 	attr_reader :players, :player1, :player2
 
 	def winner
-		return "Draw" if player1.pick == player2.pick
-		return player1  if BEATS[normalize(player1.pick)].include?(normalize(player2.pick))
+		return draw if !BEATS[normalize(player1.pick)][normalize(player2.pick)] && !BEATS[normalize(player2.pick)][normalize(player1.pick)]
+		return player1  if BEATS[normalize(player1.pick)][normalize(player2.pick)]
 		player2
+	end
+
+	def loser
+		winner == player1 ? player2 : player1
 	end
 
 	def normalize(pick)
 		pick.downcase.to_sym
 	end
 
-	def victory
-		if winner.pick == "Rock" 
-			"crushes"
-		elsif winner.pick == "Scissors"
-			"cuts"
-		elsif winner.pick == "Paper"
-			"covers"
-		elsif winner.pick == "Ninja"
-			"poisons"
-		elsif winner.pick == "Samurai"
-			"throws"
-		end
+	def message
+		return "It was a draw" if winner.name == "Draw"
+		winner.pick + " " + BEATS[normalize(winner.pick)][normalize(loser.pick)] + " " + loser.pick
+
 	end
+
+	def draw
+		Struct.new(:name).new("Draw")
+	end
+
 end
