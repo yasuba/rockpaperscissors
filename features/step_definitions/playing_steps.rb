@@ -18,3 +18,8 @@ end
 When(/^I choose Paper$/) do
   click_button "Paper"
 end
+
+Given(/^I have finished the game$/) do
+  visit '/outcome'
+  click_button "Play again!"
+end

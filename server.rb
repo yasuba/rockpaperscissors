@@ -26,6 +26,11 @@ class RockPaperScissors < Sinatra::Base
   	erb :outcome
   end
 
+  post "/replay" do
+    erb :play
+    erb :play, :layout => :end_layout
+  end
+
   def generate_computer
   	choice = ["Rock","Paper","Scissors","Ninja","Samurai"].sample
   	comp = Player.new("computer")
