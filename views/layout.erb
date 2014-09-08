@@ -6,7 +6,12 @@
 <body>
 	<h1>Rock, Paper, Scissors, Ninja! Samurai!</h1>
 <%= yield %>
-<img src='./images/rock-paper-scissors.png'>
+<img src='./images/rock-paper-scissors.png' width="600" height="600" alt="Rock Paper Scissors diagram" usemap="#rockpaperscissors">
+<map name="rockpaperscissors">
+  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+  <area shape="rect" coords="90,58,3" href="mercur.htm" alt="Mercury">
+  <area shape="rect" coords="124,58,8" href="venus.htm" alt="Venus">
+</map>
 </div>
 </body>
 </html>
