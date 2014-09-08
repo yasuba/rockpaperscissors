@@ -5,7 +5,7 @@ Feature: Playing
 
 Scenario: A player can register
 	Given I am on the homepage
-	When I click "New Game"
+	When I click go
 	And I enter my name
 	When I press "Play!"
 	Then I should be ready to play
