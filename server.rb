@@ -14,7 +14,8 @@ class RockPaperScissors < Sinatra::Base
 
   post '/register' do 
   	@player = params[:name]
-  	erb :play	
+    erb :play
+  	erb :play, :layout => :end_layout	
   end
 
   post "/play" do
@@ -27,7 +28,6 @@ class RockPaperScissors < Sinatra::Base
 
   def generate_computer
   	choice = ["Rock","Paper","Scissors","Ninja","Samurai"].sample
-
   	comp = Player.new("computer")
   	comp.picks = choice
   	comp
