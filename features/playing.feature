@@ -15,3 +15,8 @@ Scenario: A player is playing
 	When I choose Paper
 	Then I should see "RESULTS"
 
+Scenario: A player has finished playing
+	Given I have finished the game
+	When I click "Play again!"
+	Then I should be ready to play
+
