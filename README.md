@@ -14,6 +14,8 @@ Finally, the app needed some css to make it pretty.
 
 You can check out the app here: http://vast-thicket-2924.herokuapp.com/
 
+And the production url: http://mighty-harbor-3199.herokuapp.com/
+
 
 
 
