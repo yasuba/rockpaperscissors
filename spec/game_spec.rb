@@ -77,10 +77,16 @@ describe Game do
 			expect(game.winner).to eq player2
 		end
 
-		it "can constuct a fantastic winning message" do 
+		it "can constuct a losing message" do 
 			allow(player1).to receive(:pick).and_return("Samurai")
 			allow(player2).to receive(:pick).and_return("Paper")
-			expect(game.message).to eq "Paper cuts little finger of Samurai"
+			expect(game.message).to eq "You lose! Paper cuts little finger of Samurai"
+		end
+
+		it "can constuct a winning message" do 
+			allow(player1).to receive(:pick).and_return("Paper")
+			allow(player2).to receive(:pick).and_return("Samurai")
+			expect(game.message).to eq "You win! Paper cuts little finger of Samurai"
 		end
 
 		it "writes a good message for a draw" do

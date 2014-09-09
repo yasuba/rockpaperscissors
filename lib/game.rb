@@ -26,11 +26,8 @@ class Game
 
 	def message
 		return "It was a draw" if winner.name == "Draw"
-		if winner.name == ""
-			"You win! " + winner.pick + " " + BEATS[normalize(winner.pick)][normalize(loser.pick)] + " " + loser.pick
-		elsif winner.name == "computer"
-			"You lose! " + winner.pick + " " + BEATS[normalize(winner.pick)][normalize(loser.pick)] + " " + loser.pick
-		end
+		return "You win! " + winner.pick + " " + BEATS[normalize(winner.pick)][normalize(loser.pick)] + " " + loser.pick if winner == player1 
+		"You lose! " + winner.pick + " " + BEATS[normalize(winner.pick)][normalize(loser.pick)] + " " + loser.pick 
 	end
 
 	def draw
