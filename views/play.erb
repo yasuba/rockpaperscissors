@@ -1,12 +1,12 @@
-<h2>Welcome <%= @player%></h2>
+<h2>Welcome <%= @player %></h2>
 
 <form class="choose" action="/play" method="POST">
-	<input class="paper" type="image" src="./images/paper.png" name="pick" value="Paper">Paper</input>
-	<input class="rock" type="image" src="./images/rock.png" name="pick" value="Rock">Rock</input>
-	<input class="scissors" type="image" src="./images/scissors.png" name="pick" value="Scissors">Scissors</input>
-	<input class="ninja" type="image" src="./images/ninja.png" name="pick" value="Ninja">Ninja</input>
-	<input class="samurai" type="image" src="./images/samurai.png" name="pick" value="Samurai">Samurai</input>
-	<input type="hidden" name="name" value=<%=@name%>>
+  <input class="paper" type="image" src="./images/paper.png" name="pick" value="Paper">Paper</input>
+  <input class="rock" type="image" src="./images/rock.png" name="pick" value="Rock">Rock</input>
+  <input class="scissors" type="image" src="./images/scissors.png" name="pick" value="Scissors">Scissors</input>
+  <input class="ninja" type="image" src="./images/ninja.png" name="pick" value="Ninja">Ninja</input>
+  <input class="samurai" type="image" src="./images/samurai.png" name="pick" value="Samurai">Samurai</input>
+  <input type="hidden" name="name" value=<%= @name %>>
 </form>
 
 

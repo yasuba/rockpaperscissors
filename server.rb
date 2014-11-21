@@ -9,36 +9,34 @@ class RockPaperScissors < Sinatra::Base
   end
 
   get '/new-game' do
-  	erb :new_player
+    erb :new_player
   end
 
-  post '/register' do 
-  	@player = params[:name]
+  post '/register' do
+    @player = params[:name]
     erb :play
-  	erb :play, :layout => :end_layout	
+    erb :play, :layout => :end_layout
   end
 
-  post "/play" do
-  	player = Player.new(params[:name])
-  	player.picks = params[:pick]
-  	computer = generate_computer
-  	@game = Game.new(player, computer)
-  	erb :outcome
+  post '/play' do
+    player = Player.new(params[:name])
+    player.picks = params[:pick]
+    computer = generate_computer
+    @game = Game.new(player, computer)
+    erb :outcome
   end
 
-  post "/replay" do
+  post '/replay' do
     erb :play
     erb :play, :layout => :end_layout
   end
 
   def generate_computer
-  	choice = ["Rock","Paper","Scissors","Ninja","Samurai"].sample
-  	comp = Player.new("computer")
-  	comp.picks = choice
-  	comp
+    choice = ["Rock","Paper","Scissors","Ninja","Samurai"].sample
+    comp = Player.new("computer")
+    comp.picks = choice
+    comp
   end
-
-
 
   # start the server if ruby file executed directly
   run! if app_file == $0

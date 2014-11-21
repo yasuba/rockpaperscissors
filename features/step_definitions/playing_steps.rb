@@ -20,6 +20,6 @@ When(/^I choose Paper$/) do
 end
 
 Given(/^I have finished the game$/) do
-  visit '/play'
+  visit '/outcome'
   click_button "Play again!"
 end
