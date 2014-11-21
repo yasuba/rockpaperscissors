@@ -2,7 +2,7 @@
 #Rock Paper Scissors
 =================
 
-The fifth week Friday challenge at Makers Academy was to deploy a sinatra-based web application to Heroku in two separate  deployment targets: staging and production.
+The fifth-week Friday challenge at Makers Academy was to deploy a sinatra-based web application to Heroku in two separate  deployment targets: staging and production.
 
 While the codebase was provided, I added some extra tests and code to include extra weapons in the rock, paper, scissors game: a ninja and a samurai.
 
@@ -12,7 +12,7 @@ Finally, the app needed some css to make it pretty.
 
 ##The app!
 
-You can check out the app here: http://vast-thicket-2924.herokuapp.com/
+You can check out the staging url here: http://vast-thicket-2924.herokuapp.com/
 
 And the production url: http://mighty-harbor-3199.herokuapp.com/
 
