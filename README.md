@@ -12,9 +12,7 @@ Finally, the app needed some css to make it pretty.
 
 ##The app!
 
-You can check out the staging url here: http://vast-thicket-2924.herokuapp.com/
-
-And the production url: http://mighty-harbor-3199.herokuapp.com/
+http://mighty-harbor-3199.herokuapp.com/
 
 
 
